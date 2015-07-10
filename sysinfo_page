@@ -1,0 +1,37 @@
+#!/bin/bash
+# sysinfo_page - Use this script to produce an HTML file
+
+####### Constants
+title="System Information for $HOSTNAME"
+time_stamp="Updated by $USER on $(date +"%x %r %Z")"
+
+####### Functions
+system_info() {
+	# Temporary method stub
+	echo "function system_info called"
+}
+drive_space() {
+	# Temporary method stub
+	echo "function drive_space called"
+}
+
+home_space() {
+	# Temporary method stub
+	echo "function home_space called"
+}
+
+######## Main
+cat <<- _EOF_
+	<html>
+	<head>
+		<title>
+		$title
+		</title>
+	</head>
+	<body>
+	<h1>$title</h1>
+	<p>$time_stamp</p>
+	</body>
+	</html>
+
+_EOF_
