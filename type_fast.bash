@@ -7,5 +7,5 @@ read -t 10 type
 if [ "$type" = "$req_type" ]; then
 	echo "You typed correctly, congrats !"
 else
-	echo "\nPoor typing !"
+	echo -e "\nPoor typing !"
 fi

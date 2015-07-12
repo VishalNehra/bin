@@ -1,7 +1,10 @@
 #!/bin/bash
+
+# set -x
 number=1
 if [ "$number" = "1" ]; then
-	echo "Number equals 1
+	echo "Number equals 1"
 else
 	echo "Number does not equal 1"
 fi
+# set +x
